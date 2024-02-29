@@ -1,0 +1,22 @@
+contaVogais = {"a" : 26, "e" : 21, "i" : 23, "o" : 9, "u" : 12}
+str1 = 'Ola, meu nome edrey, aluno favorito de camila, do terceiro estágio, homem, porque ela briga muito com bia, mas de bia de xodozinho, com muito amor de professora'
+str1.lower()
+
+na = 0
+ne = 0
+ni = 0
+no = 0
+nu = 0
+
+for caractere in str1:
+    if caractere == 'a':
+        na += 1
+    if caractere == 'e':
+        ne += 1
+    if caractere == 'i':
+        ni += 1
+    if caractere == 'o':
+        no += 1
+    if caractere == 'u':
+        nu += 1
+print(f'Numero de a = {na}, e = {ne}, i = {ni}, o = {no} e u = {nu}')
